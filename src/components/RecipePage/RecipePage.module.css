@@ -1,0 +1,115 @@
+.body {
+  background-color: var(--eggshell);
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Outfit", sans-serif;
+  color: var(--dark_charcoal);
+}
+
+.main-card {
+  padding: 40px;
+  width: 700px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-container > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-card > h1 {
+  font-size: 40px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.main-card {
+  font-size: 16px;
+}
+
+.prep-time {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--rose-white);
+  border-radius: 10px;
+  color: var(--wenge_brown);
+}
+
+.prep-time > h1 {
+  color: #6f3750;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.ingredients,
+.instructions,
+.nutrition {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ingredients > h1,
+.instructions > h1,
+.nutrition > h1 {
+  color: #7c4c3b;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.main-card > * > ul > li::marker,
+.main-card > * > ol > li::marker {
+  color: #7c4c3b;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+
+.main-card > * > ul > li,
+.main-card > * > ol > li {
+  /* display: flex; */
+  margin-bottom: 10px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+/* .main-card{
+    list-style-position: inside;
+
+} */
+
+.prep-time > ul > li::marker {
+  color: #6f3750;
+}
+
+.line {
+  border-top: solid 1px #e0e0e0;
+  /* height: 10px; */
+}
+
+.table > tbody > tr > td {
+  border-bottom: solid 1px #e0e0e0;
+  padding: 10px 30px;
+}
+.table > tbody > tr > td:last-child {
+  color: #6f3750;
+  font-weight: bold;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.bold-title {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
