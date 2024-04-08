@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/RajathRao2000/FrontendMentorProjects/tree/main/src/components/RecipePage)
-- Live Site URL: [Add live site URL here](https://frontend-mentor-ten-wheat.vercel.app/recipe-page)
+- Solution URL: [solution URL](https://github.com/RajathRao2000/FrontendMentorProjects/tree/main/src/components/RecipePage)
+- Live Site URL: [live site URL](https://frontend-mentor-ten-wheat.vercel.app/recipe-page)
 
 ## My process
 
