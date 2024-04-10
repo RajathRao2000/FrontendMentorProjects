@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.social-links-profile {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark_Grey: hsl(0, 0%, 12%);
+  --Off_Black: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+  background-color: var(--Off_Black);
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  height: 100vh;
+}
+
+.profile-card{
+    width: 400px;
+    /* background-color: #1F1F1F; */
+    background-color: var(--Dark_Grey);
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.user-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile-card>.user-info>h1{
+  font-size: 25px;
+}
+
+.profile-card>.user-info>h2{
+  font-size: 15px;
+  color: var(--Green);
+  /* margin-top: 10px; */
+
+
+}
+.profile-card>p{
+  font-size: 15px;
+}
+.social-links-btn-group{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.social-links-btn-group>button{
+  /* height: 45px;
+  width: 100%; */
+  padding: 15px;
+  background-color: #333333;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size:14px;
+  cursor: pointer;
+}
+
+.social-links-btn-group>button:hover{
+  background-color: var(--Green);
+  color: black;
+}
+
+
+.profile-card>img{
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .profile-card{
+    padding: 20px;
+    width: 320px;
+    margin: 0;
+  }
+
+  .profile-card>p{
+    font-size: 12px;
+  }
+
+}

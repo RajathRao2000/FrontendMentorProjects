@@ -1,12 +1,13 @@
 import React from "react";
 import classes from "./RecipePage.module.css";
+import omellete from "./image-omelette.jpeg"
 
 function RecipePage() {
   return (
     <div className={classes.body}>
       <div className={classes["main-card"]}>
         <div className={classes["image-container"]}>
-          <img src="image-omelette.jpeg" />
+          <img src={omellete} />
         </div>
 
         <h1>Simple Omelette Recipe</h1>

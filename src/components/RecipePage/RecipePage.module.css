@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
 .body {
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light_grey: hsl(30, 18%, 87%);
+  --wenge_brown: hsl(30, 10%, 34%);
+  --dark_charcoal: hsl(24, 5%, 18%);
   background-color: var(--eggshell);
-  height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,11 +87,6 @@
   padding-left: 20px;
   margin-left: 20px;
 }
-
-/* .main-card{
-    list-style-position: inside;
-
-} */
 
 .prep-time > ul > li::marker {
   color: #6f3750;
